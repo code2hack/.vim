@@ -1,0 +1,2 @@
+#./configure --with-features=huge --enable-multibyte --enable-rubyinterp=yes --enable-pythoninterp=yes --enable-perlinterp=yes --enable-luainterp=yes --enable-cscope --prefix=/usr/local --with-python-command=/System/Library/Frameworks/Python.framework/Versions/2.7/bin/python2.7
+./configure --with-features=huge --enable-multibyte --enable-rubyinterp=yes --enable-python3interp=yes --enable-perlinterp=yes --enable-luainterp=yes --enable-cscope --prefix=/usr/local --with-python3-command=/usr/local/bin/python3
