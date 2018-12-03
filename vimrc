@@ -108,4 +108,8 @@ let g:Lf_StlColorscheme = 'powerline'
 let g:Lf_PreviewResult = {'Function':0, 'BufTag':0}
 
 "Latex
+filetype plugin on
+filetype indent on
+set iskeyword+=:
 let g:tex_flavor='latex'
+let g:Tex_CompileRule_pdf = 'xelatex -synctex=1 -interaction=nonstopmode $*'
