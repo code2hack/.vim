@@ -16,7 +16,8 @@ set foldmethod=syntax
 "set foldlevel=0
 "
 "Key Mappings
-nmap <C-Q> :q<CR>
+nmap ww :w<CR>
+nmap qq :q<CR>
 nmap <C-\> <C-W><C-]><C-W>T
 nmap L <C-W>l
 nmap H <C-W>h
