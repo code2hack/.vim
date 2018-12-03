@@ -112,4 +112,7 @@ filetype plugin on
 filetype indent on
 set iskeyword+=:
 let g:tex_flavor='latex'
-let g:Tex_CompileRule_pdf = 'xelatex -synctex=1 -interaction=nonstopmode $*'
+let g:vimtex_compiler_latexmk = {'build_dir' : './build'}
+let g:vimtex_compiler_latexmk_engines = {'_' : '-xelatex'}
+"let g:vimtex_compiler_latexrun_engines = {'_' : 'xelatex'}
+
