@@ -116,3 +116,6 @@ let g:vimtex_compiler_latexmk = {'build_dir' : './build'}
 let g:vimtex_compiler_latexmk_engines = {'_' : '-xelatex'}
 "let g:vimtex_compiler_latexrun_engines = {'_' : 'xelatex'}
 
+
+"Tabular
+nmap tb :Tabularize /
