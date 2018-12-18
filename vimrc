@@ -94,7 +94,7 @@ let g:Lf_ShortcutB = '<m-n>'
 nmap fl :LeaderfFile<cr>
 nmap mr :LeaderfMru<cr>
 nmap fn :LeaderfFunction!<cr>
-nmap bf :LeaderfBuffer<cr>
+nmap fb :LeaderfBuffer<cr>
 nmap tg :LeaderfTag<cr>
 nmap nt :NERDTree<cr>
 
