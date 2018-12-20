@@ -28,8 +28,8 @@ nmap < <C-W><
 nmap > <C-W>>
 nmap <S-Left> gT
 nmap <S-Right> gt
-nmap - $
-vmap - $
+nmap 9 $
+vmap 9 $
 nmap gc `[
 nmap <Space> za
 imap ,, <Esc>
