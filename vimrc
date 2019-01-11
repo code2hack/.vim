@@ -117,7 +117,13 @@ let g:tex_flavor='latex'
 let g:vimtex_compiler_latexmk = {'build_dir' : './build'}
 let g:vimtex_compiler_latexmk_engines = {'_' : '-xelatex'}
 "let g:vimtex_compiler_latexrun_engines = {'_' : 'xelatex'}
-
+let g:vimtex_quickfix_latexlog = {
+          \ 'overfull' : 0,
+          \ 'underfull' : 0,
+          \ 'packages' : {
+          \   'default' : 0,
+          \ },
+          \}
 
 "Tabular
 nmap tb :Tabularize /
