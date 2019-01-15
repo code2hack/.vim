@@ -77,13 +77,14 @@ let g:ycm_complete_in_strings=1
 let g:ycm_key_invoke_completion = '<c-z>'
 set completeopt=menu,menuone
 
+
 noremap <c-z> <NOP>
 
 let g:ycm_semantic_triggers =  {
            \ 'c,cpp,python,java,go,erlang,perl': ['re!\w{2}'],
            \ 'cs,lua,javascript': ['re!\w{2}'],
            \ }
-
+au VimEnter * let g:ycm_semantic_triggers.tex=g:vimtex#re#youcompleteme
 "LeaderF
 
 let g:Lf_ShortcutF = '<c-p>'
