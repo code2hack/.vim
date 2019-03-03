@@ -35,6 +35,7 @@ nmap <Space> za
 imap ,, <Esc>
 vmap ,, <Esc>
 nmap fd :set foldlevel=
+vmap \ll :VimtexCompileSelected<CR>
 let mapleader=","
 
 " Ctags and Gutentags
