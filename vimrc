@@ -35,7 +35,6 @@ nmap <Space> za
 imap ,, <Esc>
 vmap ,, <Esc>
 nmap fd :set foldlevel=
-vmap \ll :VimtexCompileSelected<CR>
 let mapleader=","
 
 " Ctags and Gutentags
@@ -127,7 +126,7 @@ let g:vimtex_quickfix_latexlog = {
           \   'default' : 0,
           \ },
           \}
-
+vmap \ll :VimtexCompileSelected<CR>
 "Tabular
 nmap tb :Tabularize /
 vmap tb :Tabularize /
