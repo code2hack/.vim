@@ -18,16 +18,16 @@ set foldmethod=syntax
 "Key Mappings
 nmap qq :q<CR>
 nmap <C-\> <C-W><C-]><C-W>T
-nmap L <C-W>l
-nmap H <C-W>h
-nmap K <C-W>k
-nmap J <C-W>j
+nmap L gt
+nmap H gT
+nmap K <S-Up>
+nmap J <s-Down>
+"nmap <S-Left> gT
+"nmap <S-Right> gt
 nmap + <C-W>+
 nmap _ <C-W>-
 nmap < <C-W><
 nmap > <C-W>>
-nmap <S-Left> gT
-nmap <S-Right> gt
 nmap 9 $
 vmap 9 $
 nmap gc `[
