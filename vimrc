@@ -130,3 +130,6 @@ vmap \ll :VimtexCompileSelected<CR>
 "Tabular
 nmap tb :Tabularize /
 vmap tb :Tabularize /
+
+"vim-markdown configurations
+let g:markdown_enable_spell_checking = 0
