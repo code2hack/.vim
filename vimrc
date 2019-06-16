@@ -18,12 +18,34 @@ set foldmethod=syntax
 "Key Mappings
 nmap qq :q<CR>
 nmap <C-\> <C-W><C-]><C-W>T
-nmap L gt
-nmap H gT
-nmap K <S-Up>
-nmap J <s-Down>
-"nmap <S-Left> gT
-"nmap <S-Right> gt
+
+nmap H <C-W>h
+nmap L <C-W>l
+nmap J <C-W>j
+nmap K <C-W>k
+
+vmap H <C-W>h
+vmap L <C-W>l
+vmap J <C-W>j
+vmap K <C-W>k
+
+nmap <S-Right> gt
+nmap <S-Left> gT
+vmap <S-Right> gt
+vmap <S-Left> gT
+
+"nmap K <S-Up>
+"nmap J <s-Down>
+"vmap L gt
+"vmap H gT
+"vmap K <S-Up>
+"vmap J <s-Down>
+
+"nmap <S-Left> <C-W>h
+"nmap <S-Right> <C-W>l
+"nmap <S-Up> <C-W>k
+"nmap <S-Down> <C-W>j
+
 nmap + <C-W>+
 nmap _ <C-W>-
 nmap < <C-W><
@@ -130,3 +152,6 @@ vmap \ll :VimtexCompileSelected<CR>
 "Tabular
 nmap tb :Tabularize /
 vmap tb :Tabularize /
+
+"vim-markdown configurations
+let g:markdown_enable_spell_checking = 0
