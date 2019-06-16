@@ -32,8 +32,8 @@ nmap 9 $
 vmap 9 $
 nmap gc `[
 nmap <Space> za
-imap ,, <Esc>
-vmap ,, <Esc>
+imap jj <Esc>
+vmap jj <Esc>
 nmap fd :set foldlevel=
 let mapleader=","
 
