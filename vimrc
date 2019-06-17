@@ -50,8 +50,6 @@ nmap + <C-W>+
 nmap _ <C-W>-
 nmap < <C-W><
 nmap > <C-W>>
-nmap 9 $
-vmap 9 $
 nmap gc `[
 nmap <Space> za
 imap jj <Esc>
